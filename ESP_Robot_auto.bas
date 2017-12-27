@@ -4,7 +4,7 @@ speed=0
 print "speed"
 slider speed, 0 , 1024
 button run
-button exit
+button exitprogram
 wait
 
 [run]
@@ -59,7 +59,7 @@ io(po,0,0)
 io(po,2,1)
 return
 
-[exit]
+[exitprogram]
 end
 
 
