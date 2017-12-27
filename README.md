@@ -46,7 +46,7 @@ io(po,0,0)
 io(po,2,1)
 delay 250
 goto [foward]
-ait
+wait
 
 Now your car will turn car for 1/4 of a second, and then proceed straight.   Please note that if you do this, you can no longer make your car spin.... unless you add functions [spinRight] and [spinLeft].   You can do this by copying [left] and [right] functions and renaming them. If you do this after you change it, then you will need to delete the lines that you added before.
 
