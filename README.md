@@ -4,17 +4,17 @@ Directions:   (An instructable has been created to help with more detailed instr
 
 1) Download ESPFlasher at link below
 
-Win 32 version
+Win 32 version: https://github.com/nodemcu/nodemcu-flasher/raw/master/Win32/Release/ESP8266Flasher.exe
 
-Win 64 version
+Win 64 version: https://github.com/nodemcu/nodemcu-flasher/raw/master/Win64/Release/ESP8266Flasher.exe
 
 2) Download ESPBasic Binary
 
-ESP8266 Version
+ESP8266 Version:https://github.com/esp8266/Basic/raw/NewWebSockets/Flasher/Build/4M/ESP8266Basic.cpp.bin
 
 3) Run ESPFlasher, then click on settings (gears)  to select the correct binary  -- Make sure correct USB port is selected -- Click  Flash
 
-4) Download  "ESP_Robot.bas" here.
+4) Download  "ESP_Robot.bas" here: https://drive.google.com/uc?id=1hfqrZ9HyEDvtkkCuW9s5TgWGAJUvWkIE&export=download
 
 5) Build car using guide provided
 
