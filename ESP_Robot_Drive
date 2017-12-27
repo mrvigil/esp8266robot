@@ -1,0 +1,94 @@
+speed=0
+
+[top]
+print "speed"
+slider speed, 0 , 1024
+print
+button "forward", [forward]
+print
+button "turn left", [turnLeft]
+button "turn right", [turnRight]
+print
+button "spin left", [spinLeft]
+button "spin right", [spinRight]
+print
+button "backward", [backward]
+print
+button "stop", [stop]
+print
+button "Exit", [getMeOutOfHere] 
+wait
+
+
+
+
+[stop]
+io(pwo,5,0)
+io(pwo,4,0)
+io(po,0,1)
+io(po,2,1)
+wait
+
+[forward]
+io(pwo,5,speed)
+io(pwo,4,speed)
+io(po,0,1)
+io(po,2,1)
+wait
+
+[backward]
+io(pwo,5,speed)
+io(pwo,4,speed)
+io(po,0,0)
+io(po,2,0)
+wait
+
+[spinRight]
+io(pwo,5,speed)
+io(pwo,4,speed)
+io(po,0,1)
+io(po,2,0)
+wait
+
+[spinLeft]
+io(pwo,5,speed)
+io(pwo,4,speed)
+io(po,0,0)
+io(po,2,1)
+wait
+
+[turnRight]
+io(pwo,5,speed)
+io(pwo,4,speed)
+io(po,0,1)
+io(po,2,0)
+delay 250
+[forward]
+wait
+
+[turnLeft]
+io(pwo,5,speed)
+io(pwo,4,speed)
+io(po,0,0)
+io(po,2,1)
+delay 250
+[forward]
+wait
+
+[getMeOutOfHere] 
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
